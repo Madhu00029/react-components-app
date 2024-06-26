@@ -32,7 +32,7 @@ jobs:
       - name: Upload code coverage to Codecov
         uses: codecov/codecov-action@v3.1.0
 
-      -name: Publish to Chromatic
+      - name: Publish to Chromatic
         uses: chromaui/actions@v1
         with: 
           projectToken: ${{secrets.CHROMATIC_PROJECT_TOKEN}}
